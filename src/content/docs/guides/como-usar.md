@@ -3,7 +3,7 @@
 title: Como Usar
 ---
 
-# Como usar a Apexgo
+# Como usar a Apex GO
 
 ## 1. Criar uma conta
 

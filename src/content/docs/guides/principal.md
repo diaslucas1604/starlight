@@ -4,9 +4,9 @@ title: Principal
 ---
 
 Conteúdo da página Afiliados.
-# Bem-vindo à Apexgo
+# Bem-vindo à Apex GO
 
-A **Apexgo** é uma plataforma desenvolvida para conectar **produtores** e **afiliados** que trabalham com produtos encapsulados.
+A **Apex GO** é uma plataforma desenvolvida para conectar **produtores** e **afiliados** que trabalham com produtos encapsulados.
 
 Nosso objetivo é facilitar o gerenciamento de produtos, comissões, rastreamento de vendas e integração com ferramentas externas.
 
