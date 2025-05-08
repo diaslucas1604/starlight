@@ -1,36 +1,45 @@
 ---
-title: Bem vindo ao ApexGo
-description: Aqui ira apresentar as documentações para usar o ApexGo
+title: Bem-vindo ao ApexGo
+description: Documentação para produtores e afiliados de produtos encapsulados.
 template: splash
 hero:
-  tagline: Explore guias e tutoriais para começar a utilizar na plataforma da ApexGo.
+  tagline: Descubra guias e tutoriais para dominar a plataforma ApexGo.
   image:
     file: ../../assets/logo.svg
   actions:
-    - text: Documentação
-      link: /guides/example/
+    - text: Visão Geral
+      link: /guides/principal/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+    - text: Como Usar
+      link: /guides/como-usar/
+      icon: right-arrow
+    - text: API
+      link: /guides/api/
+      icon: right-arrow
+    - text: Afiliados
+      link: /guides/afiliados/
+      icon: right-arrow
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Próximos Passos
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+    <Card title="Visão Geral" icon="open-book">
+        Entenda o sistema ApexGo e seus principais componentes.
+        <a href="/guides/principal/">Começar</a>
+    </Card>
+    <Card title="Como Usar" icon="laptop">
+        Aprenda a usar a plataforma ApexGo, desde a criação de conta até o acompanhamento de vendas.
+        <a href="/guides/como-usar/">Começar</a>
+    </Card>
+    <Card title="API" icon="code">
+        Explore a documentação da API para integrar seus produtos e serviços.
+        <a href="/guides/api/">Começar</a>
+    </Card>
+    <Card title="Afiliados" icon="star">
+        Descubra como se tornar um afiliado e promover produtos de sucesso.
+        <a href="/guides/afiliados/">Começar</a>
+    </Card>
 </CardGrid>

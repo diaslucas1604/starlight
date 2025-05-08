@@ -1,5 +1,5 @@
 ---
-title: Visão geral do sitema Apexgo
+title: Visão geral do sistema Apexgo
 description: A guide in my new Starlight docs site.
 ---
 
