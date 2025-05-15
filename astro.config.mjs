@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
     integrations: [
         starlight({
-            title: 'Apex GO',
+            title: '',
             description: 'Apex GO é um sistema para produtores e afiliados de produtos encapsulados.',
             social: [
                 { icon: 'external', label: 'Website', href: 'https://app.apexgo.com.br/' },
@@ -50,6 +50,10 @@ export default defineConfig({
                     label: 'English',
                     lang: 'en',
                 },
+            },
+            logo: {
+                src: './src/assets/logo.svg',
+                alt: 'Apex GO',
             },
         }),
     ],
